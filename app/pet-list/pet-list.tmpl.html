@@ -1,0 +1,9 @@
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">Gender of owner : {{genderType}}  , Type of Pet : {{subCategoryValue}} ,Sorted by {{subcatSort}}</h3>
+    </div>
+    <div class="panel-body">
+        <li class="list-group-item" ng-repeat="pet in petList|checkpettype:{gender:genderType,subcat:subCategoryType,subcatType:subCategoryValue,subcatSort:subcatSort}">{{pet.name}}</li>
+    </div>
+</div>
