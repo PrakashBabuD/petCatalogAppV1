@@ -69,3 +69,16 @@ it generates the test report in the folder with path
 karma_html\report-summary-filename\index.html
 Already there is one report of the unit test execution .
 
+### End to End Automation using Selenium
+
+Selenium automation project setup is done and the the project can be found in the below link :
+https://github.com/PrakashBabuD/PetCatalogAutomation
+
+
+
+
+
+
+
+
+
